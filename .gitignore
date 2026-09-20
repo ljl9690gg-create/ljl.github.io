@@ -1,0 +1,36 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志和临时文件
+*.log
+*.tmp
+*.bak
+
+# 依赖和构建产物（以后可能用到）
+node_modules/
+dist/
+build/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# 环境变量和密钥
+.env
+.env.local
+*.pem
+*.key
+
+# Python（如果以后写脚本）
+__pycache__/
+*.py[cod]
+venv/
+.venv/
